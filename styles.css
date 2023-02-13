@@ -1,0 +1,108 @@
+body{
+    max-width: 1500px;
+    min-width: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#page{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(171, 179, 206);
+    box-shadow: 0px 2px 2px #333333;
+    margin-top: 0px;
+}
+#logo{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#head{
+    display: flex;
+    padding: 0px;
+    margin-right: 10px;
+    font-size: larger;
+}
+#head li{
+    list-style: none;
+    padding-left: 2rem;
+    font-family: sans-serif;
+}
+#head li:hover{
+    color: rgb(69, 69, 177);
+    cursor: pointer;
+}
+#navigation li{
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding-left: 10px;
+    width: 8rem;
+}
+#navigation li:hover{
+    background-color: rgb(161, 163, 165);
+    cursor: pointer;
+}
+#search-bar{
+    font-size: 20px;
+    border-color: rgb(21, 6, 85);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    background-color: rgb(202, 202, 202);
+    margin-bottom: 10px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    justify-content: space-between;
+    height: 500px;
+    background-color: rgb(49, 52, 65);
+    color: white;
+}
+figcaption p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-top: 2px solid #b4b4b4;
+    border-bottom: 2px solid #b4b4b4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+figcaption h1{
+    text-align: center;
+    margin-right: 160px;
+}
+#figure1{
+    padding-top: 0px;
+}
+#related{
+    text-align: center;
+}
+.figure2{
+    width: 400px;
+    padding-left: 10px;
+    border: 1px solid #333333;
+}
+#related-search{
+    display: flex;
+}
+footer{
+    background-color: rgb(133, 152, 236);
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#one{
+    width: 300px;
+}
+th, td {
+    padding: 10px;
+    border: 3px solid #4e76ce;
+}
